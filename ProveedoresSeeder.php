@@ -14,7 +14,7 @@ class ProveedoresSeeder extends Seeder
      */
     public function run()
     {
-        Proveedores::Factory(500)->create();
+        Proveedores::Factory(600)->create();
         //
     }
 }
